@@ -1,0 +1,104 @@
+
+    body {
+      text-align: center;
+   /*   background: url("https://beautifulduwang.files.wordpress.com/2014/08/resonance-06-11.png");*/
+      background: url("https://i.imgur.com/X39qMYI.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+       background-attachment: fixed; 
+    }
+    p {
+      font-size: 40px;  
+      color:white;
+      font-style:Italic;
+      font-weight: bold;
+      text-shadow: 6px 6px #000000;
+    }
+    h1 {
+      font-size:70px;
+      color:black;
+      font-weight: bold;
+      text-shadow: 4px 4px #000000;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    img {
+      height:300px;
+      width:300px;    
+      margin-left: auto;
+      margin-right: auto 
+      margin: 10px;
+      border:10px solid red;
+      border-radius: 500px;
+      -webkit-border-radius: 500px;
+      -moz-border-radius: 500px;
+    }
+    nav {
+      border-width:100%;
+      background-color:white  ;
+    }
+    nav ul li {
+      display: inline-block;
+    }
+    h1 {
+      font-size:40px;
+      font-weight:bold;
+      text-shadow: 2px 2px #FFFFFF;
+    } 
+     h2 {
+      font-size:40px;
+      font-weight:bold;
+      text-shadow: 2px 2px #FFFFFF;
+    } 
+    ol { 
+      list-style: none;
+      text-shadow: 4px 4px #000000;
+      font-size:30px;
+      color:white;
+    }
+    .oculus{
+      height:600px;
+      width:600px;
+      position:absolute;
+      top: 115%;
+      left: 0%;
+    }
+    .googleglass{
+      height:600px;
+      width:600px;
+      position:absolute;
+      top:115%;
+      right:0%;
+    }
+    a:link{
+      color:black;
+    }
+    a:visited {
+      color:black;
+    }
+
+    a:hover {
+      color:blue;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    @media screen and (max-width: 800px){
+      .oculus {
+        background-image:url(https://www.oculus.com/en-us/);
+        background-size: cover;
+      }
+      .googleglass {
+        background-image:url(http://9to5google.com/2015/07/21/google-glass-enterprise-edition-is-foldable-water-resistant-rugged-for-the-workplace/);
+        background-size:cover;
+      }
+    }
