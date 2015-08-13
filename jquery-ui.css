@@ -777,10 +777,13 @@ button.ui-button::-moz-focus-inner {
 .ui-tabs {
 	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
 	padding: .2em;
+	background: rgba(255,255,255,0.5);
+	
 }
 .ui-tabs .ui-tabs-nav {
 	margin: 0;
 	padding: .2em .2em 0;
+
 }
 .ui-tabs .ui-tabs-nav li {
 	list-style: none;
@@ -813,7 +816,8 @@ button.ui-button::-moz-focus-inner {
 	display: block;
 	border-width: 0;
 	padding: 1em 1.4em;
-	background: none;
+	background: rgba(255,255,255,0.5);
+
 }
 .ui-tooltip {
 	padding: 8px;

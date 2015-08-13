@@ -72,17 +72,17 @@
       height:600px;
       width:600px;
       position:absolute;
-      top: 115%;
+      top: 140%;
       left: 0%;
     }
     .googleglass{
       height:600px;
       width:600px;
       position:absolute;
-      top:115%;
+      top:140%;
       right:0%;
     }
-    /*a:link{
+    a:link{
       color:black;
     }
     a:visited {
@@ -94,7 +94,7 @@
     }
     a:link {
       text-decoration: none;
-    }*/
+    }
     @media screen and (max-width: 400px){
       .oculus {
         background-image:url(https://www.oculus.com/en-us/);
@@ -105,5 +105,7 @@
         background-size:cover;
       }
     }
+
+    
 
     
